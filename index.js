@@ -6,8 +6,6 @@ const Email = require("./mailer/email");
 (async () => {
   let browser;
 
-  console.log("process.env:", process.env);
-
   try {
     browser = await puppeteer.launch({
       headless: false,
@@ -31,7 +29,7 @@ const Email = require("./mailer/email");
       </ul>`.replace(/\,/g, "")
     );
   } catch (error) {
-    console.error("error: ", error);
+    await Email.send(error.stack, true);
   }
 
   await browser.close();
