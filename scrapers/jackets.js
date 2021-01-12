@@ -11,10 +11,30 @@ class Jackets {
     this.jackets = [];
   }
 
-  // handle auto-scroll
+  async exhaustInfiniteScroll() {
+    await this.page.evaluate(async () => {
+      await new Promise((resolve, reject) => {
+        let totalHeight = 0;
+        const distance = 100;
+
+        const timer = setInterval(() => {
+          const scrollHeight = document.body.scrollHeight;
+          window.scrollBy(0, distance);
+          totalHeight += distance;
+
+          if (totalHeight >= scrollHeight) {
+            clearInterval(timer);
+            resolve();
+          }
+        }, 100);
+      });
+    });
+  }
+
   async scrape() {
     await this.page.goto(URL, { waitUntil: "domcontentloaded" });
     await this.page.waitFor(2000);
+    await this.exhaustInfiniteScroll();
 
     this.jackets = await this.page.evaluate(() => {
       return Array.from(
