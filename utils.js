@@ -1,16 +1,16 @@
+const fs = require("fs");
+
 function buildResultsData(results) {
-  const PRIORITIZED_TERMS = ["hoody", "down"];
   const categorizedResults = {
+    newlyAdded: [],
     prioritizedResults: [],
     otherResults: [],
   };
 
   return results.reduce((prev, curr) => {
-    const isPrioritizedResult = PRIORITIZED_TERMS.some((term) =>
-      curr.title.toLowerCase().includes(term)
-    );
-
-    if (isPrioritizedResult) {
+    if (isNewlyAdded(curr)) {
+      prev.newlyAdded = [...prev.newlyAdded, curr];
+    } else if (isPrioritized(curr)) {
       prev.prioritizedResults = [...prev.prioritizedResults, curr];
     } else {
       prev.otherResults = [...prev.otherResults, curr];
@@ -20,4 +20,24 @@ function buildResultsData(results) {
   }, categorizedResults);
 }
 
-exports.buildResultsData = buildResultsData;
+function isNewlyAdded(result) {
+  const historicalDataHrefs = readFromFile().map((result) => result.href);
+
+  return historicalDataHrefs.every((href) => href !== result.href);
+}
+
+function isPrioritized(result) {
+  const PRIORITIZED_TERMS = ["hoody", "down"];
+
+  return PRIORITIZED_TERMS.some((term) =>
+    result.title.toLowerCase().includes(term)
+  );
+}
+
+function readFromFile() {
+  const rawJSON = fs.readFileSync("./data/jackets.json");
+
+  return JSON.parse(rawJSON);
+}
+
+module.exports = { buildResultsData: buildResultsData };

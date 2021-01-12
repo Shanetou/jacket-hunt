@@ -37,7 +37,7 @@ class Jackets {
     await this.page.waitFor(2000);
     await this.exhaustInfiniteScroll();
 
-    const scrappedJackets = await this.page.evaluate(() => {
+    this.jackets = await this.page.evaluate(() => {
       return Array.from(
         document.querySelectorAll("article.Results > div > ol > li")
       ).map((listItem) => {
@@ -52,8 +52,6 @@ class Jackets {
         };
       });
     });
-
-    this.jackets = buildResultsData(scrappedJackets);
 
     this.writeToFile();
 

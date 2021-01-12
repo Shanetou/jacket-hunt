@@ -21,31 +21,27 @@ class Email {
       return data;
     }
 
-    const { prioritizedResults, otherResults } = this.data;
+    return (
+      this.buildSectionHTML("Freshly Added", this.data.newlyAdded) +
+      this.buildSectionHTML("Best Matches", this.data.prioritizedResults) +
+      this.buildSectionHTML("Other Matches", this.data.otherResults)
+    );
+  }
 
+  buildSectionHTML(headerTitle, data) {
     return `
-            <h3 style="margin-bottom: 20px">Best Matches</h3>
-            <ul style="list-style:none; margin-bottom: 20px;">
-              ${prioritizedResults.map(
-                ({ title, href, price }) =>
-                  `<li style="margin-bottom: 20px">
-                    <div>${title}</div>
-                    <div>${price}</div>
-                    <div>${href}</div>
-                  </li>`
-              )}
-            </ul>
-            <h3 style="margin-bottom: 20px">Other Matches</h3>
-            <ul style="list-style:none; margin-bottom: 20px;">
-              ${otherResults.map(
-                ({ title, href, price }) =>
-                  `<li style="margin-bottom: 20px">
-                    <div>${title}</div>
-                    <div>${price}</div>
-                    <div>${href}</div>
-                  </li>`
-              )}
-            </ul>`.replace(/\,/g, "");
+      <h3 style="margin-bottom: 20px">${headerTitle}</h3>
+        <ul style="list-style:none; margin-bottom: 20px;">
+          ${data.map(
+            ({ title, href, price }) =>
+              `<li style="margin-bottom: 20px">
+                <div>${title}</div>
+                <div>${price}</div>
+                <div>${href}</div>
+              </li>`
+          )}
+        </ul>
+      `.replace(/\,/g, "");
   }
 
   async send() {
