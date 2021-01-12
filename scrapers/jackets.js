@@ -1,4 +1,5 @@
 const fs = require("fs");
+const { buildResultsData } = require("../utils");
 
 const URL =
   "https://wornwear.patagonia.com/shop/mens-jackets-and-vests?category=Jackets&size=S";
@@ -36,7 +37,7 @@ class Jackets {
     await this.page.waitFor(2000);
     await this.exhaustInfiniteScroll();
 
-    this.jackets = await this.page.evaluate(() => {
+    const scrappedJackets = await this.page.evaluate(() => {
       return Array.from(
         document.querySelectorAll("article.Results > div > ol > li")
       ).map((listItem) => {
@@ -51,6 +52,8 @@ class Jackets {
         };
       });
     });
+
+    this.jackets = buildResultsData(scrappedJackets);
 
     this.writeToFile();
 
