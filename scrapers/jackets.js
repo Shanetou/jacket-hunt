@@ -24,13 +24,11 @@ class Jackets {
         const href = listItem.querySelector("a");
         const price = listItem.querySelector("a > footer > div > div > span");
 
-        return [
-          {
-            title: name && name.innerText,
-            href: href && href.href,
-            price: price && price.innerText,
-          },
-        ];
+        return {
+          title: name && name.innerText,
+          href: href && href.href,
+          price: price && price.innerText,
+        };
       });
     });
 
