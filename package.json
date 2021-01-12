@@ -1,0 +1,14 @@
+{
+  "name": "jacket-hunt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Shanetou/jacket-hunt.git",
+  "author": "Shane McQuerter <shanemcquerter@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^5.5.0"
+  }
+}
