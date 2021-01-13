@@ -6,8 +6,7 @@
   "author": "Shane McQuerter <shanemcquerter@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
-    "schedule": "node cron/schedule.js"
+    "start": "node cron/schedule.js"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
