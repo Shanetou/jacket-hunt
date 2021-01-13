@@ -1,8 +1,33 @@
 [
   {
+    "title": "M's Insulated Fjord Flannel Jacket",
+    "href": "https://wornwear.patagonia.com/p/patagonia-ms-insulated-fjord-flannel-jacket-mens/27640?color=NVYB",
+    "price": "$101"
+  },
+  {
+    "title": "M's Nano Puff® Jacket",
+    "href": "https://wornwear.patagonia.com/p/patagonia-ms-nano-puff-jacket-mens/84212?color=INDG",
+    "price": "$119"
+  },
+  {
     "title": "M's Micro Puff® Hoody",
     "href": "https://wornwear.patagonia.com/p/patagonia-ms-micro-puff-hoody-mens/84030?color=BALB",
     "price": "$161"
+  },
+  {
+    "title": "M's Crosstrek Jacket",
+    "href": "https://wornwear.patagonia.com/p/patagonia-ms-crosstrek-jacket-mens/23810?color=BALB",
+    "price": "$80 - $89"
+  },
+  {
+    "title": "M's Boilerplate Jacket",
+    "href": "https://wornwear.patagonia.com/p/patagonia-ms-boilerplate-jacket-mens/28372?color=483",
+    "price": "$106"
+  },
+  {
+    "title": "M's Torrentshell Jacket",
+    "href": "https://wornwear.patagonia.com/p/patagonia-ms-torrentshell-jacket-mens/83617?color=258",
+    "price": "$107"
   },
   {
     "title": "M's Adze Hybrid Jacket",
@@ -45,6 +70,16 @@
     "price": "$144"
   },
   {
+    "title": "M's Down Sweater",
+    "href": "https://wornwear.patagonia.com/p/patagonia-ms-down-sweater-mens/84674?color=BLK",
+    "price": "$124"
+  },
+  {
+    "title": "M's Zephur Jacket",
+    "href": "https://wornwear.patagonia.com/p/patagonia-ms-zephur-jacket-mens/84322?color=2",
+    "price": "$62"
+  },
+  {
     "title": "M's Dispatch Jacket",
     "href": "https://wornwear.patagonia.com/p/patagonia-ms-dispatch-jacket-mens/27490?color=BLK",
     "price": "$75"
@@ -60,11 +95,6 @@
     "price": "$134"
   },
   {
-    "title": "M's R2 Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-r2-jacket-mens/25134?color=155",
-    "price": "$72"
-  },
-  {
     "title": "W's Puff Jacket",
     "href": "https://wornwear.patagonia.com/p/patagonia-ws-puff-jacket-womens/84030?color=969",
     "price": "$145"
@@ -78,11 +108,6 @@
     "title": "M's Insulated Torrentshell Jacket",
     "href": "https://wornwear.patagonia.com/p/patagonia-ms-insulated-torrentshell-jacket-mens/83715?color=NVYB",
     "price": "$179"
-  },
-  {
-    "title": "M's Zephur Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-zephur-jacket-mens/84322?color=2",
-    "price": "$62"
   },
   {
     "title": "M's Shelled Micro D-Luxe Jacket",
@@ -200,7 +225,7 @@
     "price": "$150"
   },
   {
-    "title": "M's Crosstrek™ Jacket",
+    "title": "M's Crosstrek Jacket",
     "href": "https://wornwear.patagonia.com/p/patagonia-ms-crosstrek-jacket-mens/23810?color=BLK",
     "price": "$89"
   },
@@ -250,11 +275,6 @@
     "price": "$99"
   },
   {
-    "title": "M's Crosstrek Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-crosstrek-jacket-mens/23810?color=BALB",
-    "price": "$80 - $89"
-  },
-  {
     "title": "M's Integral Jacket",
     "href": "https://wornwear.patagonia.com/p/patagonia-ms-integral-jacket-mens/24940?color=WWO",
     "price": "$70 - $78"
@@ -278,11 +298,6 @@
     "title": "M's R2® Jacket",
     "href": "https://wornwear.patagonia.com/p/patagonia-ms-r2-jacket-mens/25139?color=BSRB",
     "price": "$69 - $77"
-  },
-  {
-    "title": "M's Boilerplate Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-boilerplate-jacket-mens/28372?color=483",
-    "price": "$106"
   },
   {
     "title": "M's Karstens Jacket",
@@ -313,11 +328,6 @@
     "title": "M's Windsweep Down Hoody",
     "href": "https://wornwear.patagonia.com/p/patagonia-ms-windsweep-down-hoody-mens/84890?color=VIK",
     "price": "$209"
-  },
-  {
-    "title": "M's Insulated Fjord Flannel Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-insulated-fjord-flannel-jacket-mens/27640?color=NVYB",
-    "price": "$101"
   },
   {
     "title": "M's Descensionist Jacket",
@@ -437,16 +447,11 @@
   {
     "title": "M's Guide Jacket",
     "href": "https://wornwear.patagonia.com/p/patagonia-ms-guide-jacket-mens/83150?color=ESP",
-    "price": "$75"
+    "price": "$75 - $94"
   },
   {
     "title": "M's Wind Shield Jacket",
     "href": "https://wornwear.patagonia.com/p/patagonia-ms-wind-shield-jacket-mens/24981?color=FOG",
     "price": "$50 - $63"
-  },
-  {
-    "title": "M's Torrentshell Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-torrentshell-jacket-mens/83617?color=258",
-    "price": "$107"
   }
 ]
