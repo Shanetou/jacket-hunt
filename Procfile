@@ -1,1 +1,1 @@
-heroworker: yarn schedule
+worker: yarn schedule
