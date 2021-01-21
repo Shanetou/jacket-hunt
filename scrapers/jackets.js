@@ -1,5 +1,4 @@
 const fs = require("fs");
-const { buildResultsData } = require("../utils");
 
 const URL =
   "https://wornwear.patagonia.com/shop/mens-jackets-and-vests?category=Jackets&size=S";

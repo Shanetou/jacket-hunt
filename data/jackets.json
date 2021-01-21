@@ -1,28 +1,18 @@
 [
   {
-    "title": "M's Insulated Fjord Flannel Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-insulated-fjord-flannel-jacket-mens/27640?color=NVYB",
-    "price": "$101"
+    "title": "M's Pack In Jacket",
+    "href": "https://wornwear.patagonia.com/p/patagonia-ms-pack-in-jacket-mens/20945?color=NENA",
+    "price": "$134"
   },
   {
-    "title": "M's Nano Puff® Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-nano-puff-jacket-mens/84212?color=INDG",
-    "price": "$119"
+    "title": "M's Clean Color Jacket",
+    "href": "https://wornwear.patagonia.com/p/patagonia-ms-clean-color-jacket-mens/26980?color=CTSB",
+    "price": "$75"
   },
   {
-    "title": "M's Micro Puff® Hoody",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-micro-puff-hoody-mens/84030?color=BALB",
-    "price": "$161"
-  },
-  {
-    "title": "M's Crosstrek Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-crosstrek-jacket-mens/23810?color=BALB",
-    "price": "$80 - $89"
-  },
-  {
-    "title": "M's Boilerplate Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-boilerplate-jacket-mens/28372?color=483",
-    "price": "$106"
+    "title": "M's Phil's Fleece Jacket - Special",
+    "href": "https://wornwear.patagonia.com/p/patagonia-ms-phils-fleece-jacket-special-mens/11719?color=HEN",
+    "price": "$90"
   },
   {
     "title": "M's Torrentshell Jacket",
@@ -40,29 +30,9 @@
     "price": "$83"
   },
   {
-    "title": "M's Micro Synchilla® Jacket-Special",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-micro-synchilla-jacket-special-mens/11307?color=SDB",
-    "price": "$59"
-  },
-  {
-    "title": "M's City Storm Parka",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-city-storm-parka-mens/27895?color=BLK",
-    "price": "$269"
-  },
-  {
-    "title": "M's Adze Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-adze-jacket-mens/83525?color=FEG",
-    "price": "$80"
-  },
-  {
     "title": "M's Adze Jacket",
     "href": "https://wornwear.patagonia.com/p/patagonia-ms-adze-jacket-mens/83390?color=MLCG",
     "price": "$83"
-  },
-  {
-    "title": "M's Powder Bowl Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-powder-bowl-jacket-mens/30090?color=BLK",
-    "price": "$180"
   },
   {
     "title": "M's Rubicon Rider Jacket",
@@ -70,9 +40,14 @@
     "price": "$144"
   },
   {
-    "title": "M's Down Sweater",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-down-sweater-mens/84674?color=BLK",
-    "price": "$124"
+    "title": "M's Super Cell Jacket",
+    "href": "https://wornwear.patagonia.com/p/patagonia-ms-super-cell-jacket-mens/83821?color=VIK",
+    "price": "$161"
+  },
+  {
+    "title": "M's Storm Racer Jacket",
+    "href": "https://wornwear.patagonia.com/p/patagonia-ms-storm-racer-jacket-mens/24110?color=VIK",
+    "price": "$120"
   },
   {
     "title": "M's Zephur Jacket",
@@ -83,11 +58,6 @@
     "title": "M's Dispatch Jacket",
     "href": "https://wornwear.patagonia.com/p/patagonia-ms-dispatch-jacket-mens/27490?color=BLK",
     "price": "$75"
-  },
-  {
-    "title": "M's Super Cell Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-super-cell-jacket-mens/83821?color=VIK",
-    "price": "$161"
   },
   {
     "title": "M's Solar Wind Jacket",
@@ -125,16 +95,6 @@
     "price": "$83"
   },
   {
-    "title": "M's Steel Forge Denim Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-steel-forge-denim-jacket-mens/27850?color=DDNM",
-    "price": "$119"
-  },
-  {
-    "title": "M's Adze Hybrid Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-adze-hybrid-jacket-mens/83450?color=FEA",
-    "price": "$64 - $80"
-  },
-  {
     "title": "M's Ukiah Down Hybrid Jacket",
     "href": "https://wornwear.patagonia.com/p/patagonia-ms-ukiah-down-hybrid-jacket-mens/27835?color=BLK",
     "price": "$107"
@@ -150,19 +110,14 @@
     "price": "$151"
   },
   {
+    "title": "M's Wind Shield Jacket",
+    "href": "https://wornwear.patagonia.com/p/patagonia-ms-wind-shield-jacket-mens/24981?color=FOG",
+    "price": "$50"
+  },
+  {
     "title": "M's Crosstrek Jacket",
     "href": "https://wornwear.patagonia.com/p/patagonia-ms-crosstrek-jacket-mens/23810?color=FGE",
     "price": "$80 - $89"
-  },
-  {
-    "title": "M's Storm Racer Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-storm-racer-jacket-mens/24110?color=VIK",
-    "price": "$120"
-  },
-  {
-    "title": "M's Prefontaine Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-prefontaine-jacket-mens/27530?color=BLK",
-    "price": "$43"
   },
   {
     "title": "M's Powder Bowl Jacket",
@@ -185,11 +140,6 @@
     "price": "$296"
   },
   {
-    "title": "M's Boilerplate Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-boilerplate-jacket-mens/28370?color=764",
-    "price": "$119"
-  },
-  {
     "title": "M's All Free Jacket",
     "href": "https://wornwear.patagonia.com/p/patagonia-ms-all-free-jacket-mens/83020?color=ANDB",
     "price": "$77"
@@ -203,6 +153,11 @@
     "title": "M's Calcite Jacket",
     "href": "https://wornwear.patagonia.com/p/patagonia-ms-calcite-jacket-mens/84985-scnd?color=BSRB",
     "price": "$119 - $149"
+  },
+  {
+    "title": "M's Adze Jacket",
+    "href": "https://wornwear.patagonia.com/p/patagonia-ms-adze-jacket-mens/83390?color=NKL",
+    "price": "$67"
   },
   {
     "title": "M's Kernelius Jacket",
@@ -225,19 +180,9 @@
     "price": "$150"
   },
   {
-    "title": "M's Crosstrek Jacket",
+    "title": "M's Crosstrek™ Jacket",
     "href": "https://wornwear.patagonia.com/p/patagonia-ms-crosstrek-jacket-mens/23810?color=BLK",
     "price": "$89"
-  },
-  {
-    "title": "M's Micro Puff Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-micro-puff-jacket-mens/83907?color=FGE",
-    "price": "$72"
-  },
-  {
-    "title": "M's PowSlayer Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-powslayer-jacket-mens/30300?color=BLN",
-    "price": "$367 - $407"
   },
   {
     "title": "M's Tenpenny Jacket",
@@ -248,6 +193,11 @@
     "title": "M's Adze Jacket",
     "href": "https://wornwear.patagonia.com/p/patagonia-ms-adze-jacket-mens/83390?color=PBH",
     "price": "$75"
+  },
+  {
+    "title": "M's PowSlayer Jacket",
+    "href": "https://wornwear.patagonia.com/p/patagonia-ms-powslayer-jacket-mens/30300?color=BLN",
+    "price": "$367"
   },
   {
     "title": "M's Insulator Jacket",
@@ -270,21 +220,6 @@
     "price": "$60"
   },
   {
-    "title": "M's Down Sweater",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-down-sweater-mens/84674?color=CARG",
-    "price": "$99"
-  },
-  {
-    "title": "M's Integral Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-integral-jacket-mens/24940?color=WWO",
-    "price": "$70 - $78"
-  },
-  {
-    "title": "M's Woolyester Fleece Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-woolyester-fleece-jacket-mens/26935?color=CNY",
-    "price": "$95"
-  },
-  {
     "title": "M's Galvanized Jacket",
     "href": "https://wornwear.patagonia.com/p/patagonia-ms-galvanized-jacket-mens/83146?color=FGE",
     "price": "$239"
@@ -295,49 +230,14 @@
     "price": "$89"
   },
   {
-    "title": "M's R2® Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-r2-jacket-mens/25139?color=BSRB",
-    "price": "$69 - $77"
-  },
-  {
-    "title": "M's Karstens Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-karstens-jacket-mens/25676?color=BLK",
-    "price": "$75"
-  },
-  {
     "title": "M's Baggies™ Jacket",
     "href": "https://wornwear.patagonia.com/p/patagonia-ms-baggies-jacket-mens/28151?color=SPRB",
-    "price": "$64"
-  },
-  {
-    "title": "M's Adze Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-adze-jacket-mens/83525?color=VIK",
     "price": "$64"
   },
   {
     "title": "M's Thunder Cloud Shell",
     "href": "https://wornwear.patagonia.com/p/patagonia-ms-thunder-cloud-shell-mens/28170?color=CNY",
     "price": "$110"
-  },
-  {
-    "title": "M's R2 Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-r2-jacket-mens/25131?color=76",
-    "price": "$87"
-  },
-  {
-    "title": "M's Windsweep Down Hoody",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-windsweep-down-hoody-mens/84890?color=VIK",
-    "price": "$209"
-  },
-  {
-    "title": "M's Descensionist Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-descensionist-jacket-mens/30105?color=VIK",
-    "price": "$242"
-  },
-  {
-    "title": "M's Adze Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-adze-jacket-mens/83390?color=SDB",
-    "price": "$67"
   },
   {
     "title": "M's Super Pluma Jacket",
@@ -350,34 +250,14 @@
     "price": "$99"
   },
   {
-    "title": "M's Insulator Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-insulator-jacket-mens/27005?color=CHB",
-    "price": "$89"
-  },
-  {
-    "title": "M's Figure 4 Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-figure-4-jacket-mens/84965?color=LOW",
-    "price": "$86"
-  },
-  {
     "title": "M's Snowshot Jacket",
     "href": "https://wornwear.patagonia.com/p/patagonia-ms-snowshot-jacket-mens/30940?color=FLGN",
     "price": "$151"
   },
   {
-    "title": "M's Nine Trails Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-nine-trails-jacket-mens/24950?color=SNL",
-    "price": "$57"
-  },
-  {
     "title": "M's Adze Jacket",
     "href": "https://wornwear.patagonia.com/p/patagonia-ms-adze-jacket-mens/83525?color=CNY",
     "price": "$64"
-  },
-  {
-    "title": "M's Spraymaster Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-spraymaster-jacket-mens/24075?color=464",
-    "price": "$120"
   },
   {
     "title": "M's Super Cell Jacket",
@@ -390,34 +270,9 @@
     "price": "$57"
   },
   {
-    "title": "M's Adze Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-adze-jacket-mens/83390?color=TDT",
-    "price": "$75"
-  },
-  {
     "title": "M's Intermediary Jacket",
     "href": "https://wornwear.patagonia.com/p/patagonia-ms-intermediary-jacket-mens/28185?color=BLK",
     "price": "$122"
-  },
-  {
-    "title": "M's Chas Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-chas-jacket-mens/20855?color=422",
-    "price": "$48"
-  },
-  {
-    "title": "M's Adze Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-adze-jacket-mens/83390?color=NKL",
-    "price": "$67"
-  },
-  {
-    "title": "M's Adze Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-adze-jacket-mens/83390?color=RDS",
-    "price": "$75"
-  },
-  {
-    "title": "M's Phil's Fleece Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-phils-fleece-jacket-mens/25765?color=GRV",
-    "price": "$65"
   },
   {
     "title": "M's Synchilla Windproof Jacket",
@@ -448,10 +303,5 @@
     "title": "M's Guide Jacket",
     "href": "https://wornwear.patagonia.com/p/patagonia-ms-guide-jacket-mens/83150?color=ESP",
     "price": "$75 - $94"
-  },
-  {
-    "title": "M's Wind Shield Jacket",
-    "href": "https://wornwear.patagonia.com/p/patagonia-ms-wind-shield-jacket-mens/24981?color=FOG",
-    "price": "$50 - $63"
   }
 ]

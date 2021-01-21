@@ -22,7 +22,7 @@ class Email {
     }
 
     return (
-      this.buildSectionHTML("Freshly Added", this.data.newlyAdded) +
+      // this.buildSectionHTML("Freshly Added", this.data.newlyAdded) +
       this.buildSectionHTML("Best Matches", this.data.prioritizedResults) +
       this.buildSectionHTML("Other Matches", this.data.otherResults)
     );
