@@ -1,14 +1,13 @@
-function buildResultsData(results) {
+function buildResultsData(results, searchTerms) {
   const categorizedResults = {
-    // newlyAdded: [],
     prioritizedResults: [],
     otherResults: [],
   };
 
+  const isPrioritized = (result) =>
+    searchTerms.some((term) => result.title.toLowerCase().includes(term));
+
   return results.reduce((prev, curr) => {
-    // if (isNewlyAdded(curr)) {
-    //   prev.newlyAdded = [...prev.newlyAdded, curr];
-    // } else
     if (isPrioritized(curr)) {
       prev.prioritizedResults = [...prev.prioritizedResults, curr];
     } else {
@@ -19,24 +18,11 @@ function buildResultsData(results) {
   }, categorizedResults);
 }
 
-// function isNewlyAdded(result) {
-//   const historicalDataHrefs = readFromFile().map((result) => result.href);
-
-//   return historicalDataHrefs.every((href) => href !== result.href);
-// }
-
-function isPrioritized(result) {
-  const PRIORITIZED_TERMS = ["hoody", "down", "nano", "micro`"];
-
-  return PRIORITIZED_TERMS.some((term) =>
-    result.title.toLowerCase().includes(term)
-  );
+function getScrapeUrl(category) {
+  return `https://wornwear.patagonia.com/shop/${category}-jackets-and-vests?category=Jackets&size=S`;
 }
 
-// function readFromFile() {
-//   const rawJSON = fs.readFileSync("./data/jackets.json");
-
-//   return JSON.parse(rawJSON);
-// }
-
-module.exports = { buildResultsData: buildResultsData };
+module.exports = {
+  buildResultsData: buildResultsData,
+  getScrapeUrl: getScrapeUrl,
+};

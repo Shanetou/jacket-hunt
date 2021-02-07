@@ -1,14 +1,8 @@
 const fs = require("fs");
 
-const URL =
-  "https://wornwear.patagonia.com/shop/mens-jackets-and-vests?category=Jackets&size=S";
-
-class Jackets {
-  constructor(browser, page) {
-    this.browser = browser;
+class JacketScraper {
+  constructor(page) {
     this.page = page;
-
-    this.jackets = [];
   }
 
   async exhaustInfiniteScroll() {
@@ -31,12 +25,12 @@ class Jackets {
     });
   }
 
-  async scrape() {
-    await this.page.goto(URL, { waitUntil: "domcontentloaded" });
+  async scrape(url) {
+    await this.page.goto(url, { waitUntil: "domcontentloaded" });
     await this.page.waitFor(2000);
     await this.exhaustInfiniteScroll();
 
-    this.jackets = await this.page.evaluate(() => {
+    const jackets = await this.page.evaluate(() => {
       return Array.from(
         document.querySelectorAll("article.Results > div > ol > li")
       ).map((listItem) => {
@@ -52,17 +46,14 @@ class Jackets {
       });
     });
 
-    this.writeToFile();
+    this.writeToFile(jackets);
 
-    return this.jackets;
+    return jackets;
   }
 
-  writeToFile() {
-    fs.writeFileSync(
-      "./data/jackets.json",
-      JSON.stringify(this.jackets, null, 2)
-    );
+  writeToFile(jackets) {
+    fs.writeFileSync("./data/jackets.json", JSON.stringify(jackets, null, 2));
   }
 }
 
-module.exports = Jackets;
+module.exports = JacketScraper;
