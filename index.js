@@ -40,8 +40,8 @@ const scrapeWomensJackets = async (scraper) => {
     const page = await browser.newPage();
     const scraper = new JacketScraper(page);
 
-    await scrapeMensJackets(scraper);
-    // await scrapeWomensJackets(scraper);
+    // await scrapeMensJackets(scraper);
+    await scrapeWomensJackets(scraper);
   } catch (error) {
     console.log("error:", error);
     await new Email().send(error.stack, false);
