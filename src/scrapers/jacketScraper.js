@@ -46,14 +46,14 @@ class JacketScraper {
       });
     });
 
-    this.writeToFile(jackets);
+    // this.writeToFile(jackets);
 
     return jackets;
   }
 
-  writeToFile(jackets) {
-    fs.writeFileSync("./data/jackets.json", JSON.stringify(jackets, null, 2));
-  }
+  // writeToFile(jackets) {
+  //   fs.writeFileSync("../data/jackets.json", JSON.stringify(jackets, null, 2));
+  // }
 }
 
 module.exports = JacketScraper;
